@@ -1,4 +1,9 @@
+
+# This is thecold's implementation of Palette repositories.
+
+
 # Palette: Image-to-Image Diffusion Models
+
 
 [Paper](https://arxiv.org/pdf/2111.05826.pdf ) |  [Project](https://iterative-refinement.github.io/palette/ )
 
@@ -25,17 +30,6 @@ There are some implementation details with paper descriptions:
 - [x] Metrics (now for FID, IS)
 - [x] Dataset (now for inpainting, uncropping, colorization)
 - [x] Google colab script 🌟(now for inpainting)
-
-### Task
-
-I try to finish following tasks in order:
-- [x] Inpainting on [CelebaHQ](https://drive.google.com/drive/folders/1CjZAajyf-jIknskoTQ4CGvVkAigkhNWA?usp=sharing)🚀 ([Google Colab](https://colab.research.google.com/drive/1wfcd6QKkN2AqZDGFKZLyGKAoI5xcXUgO#scrollTo=8VFpuekybeQK))
-- [x] Inpainting on [Places2 with 128×128 centering mask](https://drive.google.com/drive/folders/1fLyFtrStfEtyrqwI0N_Xb_3idsf0gz0M?usp=sharing)🚀
-
-The follow-up experiment is uncertain, due to lack of time and GPU resources:
-
-- [ ] Uncropping on Places2
-- [ ] Colorization on ImageNet val set 
 
 ## Results
 
